@@ -1,0 +1,19 @@
+publish_job:
+    script:
+        - source ~/.bash_profile
+        #- cat ~/.npmrc
+        - git_url=$(git config --get remote.origin.url)
+        - package_version=$(node -e "console.log(require('./package.json').version);")
+        - echo $git_url && echo $package_version
+        #- echo $git_url | grep "10.73.53.167/ev/loopback-datasource-juggler.git"
+        - if echo $git_url | grep "10.73.53.167/ev/loopback-datasource-juggler.git"; then main_branch=1; else main_branch=0; fi
+        #- main_branch=$(echo $git_url | grep "10.73.53.167/ev/loopback-datasource-juggler.git" | wc -l)
+        - if [ $main_branch -eq 0 ]; then echo "Not the main project, hence stopping CI" && exit 0; else echo "Should run npm publish next"; fi
+        - if npm view loopback-datasource-juggler versions | grep $package_version; then version_exists=1; else version_exists=0; fi
+        - if [ $version_exists -eq 0 ]; then echo "Version doesn't exist, can publish directly"; else npm unpublish loopback-datasource-juggler@$package_version && echo "Unpublished version $package_version"; fi
+        - npm publish
+        - echo "Successfully published latest version"
+    tags:
+        - linux
+        - ev
+        - shared
