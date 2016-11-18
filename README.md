@@ -1,6 +1,6 @@
 # LoopBack DataSource Juggler
 
-This is a fixed version of the original Loopback Datasource Juggler whose Readme follows:
+This is a fixed version of the original [Loopback Datasource Juggler](https://github.com/strongloop/loopback-datasource-juggler) whose Readme follows:
 
 LoopBack DataSource Juggler is an ORM that provides a common set of interfaces
 for interacting with databases, REST APIs, and other data sources. It was
