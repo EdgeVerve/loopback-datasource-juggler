@@ -1,6 +1,6 @@
 {
   "name": "loopback-datasource-juggler",
-  "version": "2.102.9",
+  "version": "2.105.2",
   "description": "LoopBack DataSoure Juggler - Fixed",
   "keywords": [
     "StrongLoop",
@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "async": "~1.0.0",
+    "async-lock": "^0.3.9",
     "debug": "^2.1.1",
     "depd": "^1.0.0",
     "inflection": "^1.6.0",
