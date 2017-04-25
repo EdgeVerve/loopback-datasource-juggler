@@ -1,0 +1,88 @@
+{
+    "name": "loopback-datasource-juggler",
+    "version": "0.8.0",
+    "description": "LoopBack DataSoure Juggler customized for Open Enterprise(oe.io)",
+    "keywords": [
+    "StrongLoop",
+    "LoopBack",
+    "DataSource",
+    "Connector",
+    "Database",
+    "Juggler",
+    "ORM"
+  ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/strongloop/loopback-datasource-juggler"
+    },
+    "main": "index.js",
+    "browser": {
+        "depd": "./lib/browser.depd.js"
+    },
+    "scripts": {
+        "test": "make test"
+    },
+    "engines": [
+    "node >= 0.6"
+  ],
+    "devDependencies": {
+        "bluebird": "^2.9.9",
+        "mocha": "^2.1.0",
+        "should": "^5.0.0"
+    },
+    "dependencies": {
+        "async": "~1.0.0",
+        "async-lock": "^0.3.9",
+        "debug": "^2.1.1",
+        "depd": "^1.0.0",
+        "inflection": "^1.6.0",
+        "lodash": "^4.6.0",
+        "loopback-connector": "^2.1.0",
+        "lru-cache": "^4.0.2",
+        "node-uuid": "^1.4.2",
+        "qs": "^3.1.0",
+        "traverse": "^0.6.6"
+    },
+    "license": "MIT",
+    "gitHead": "b8fb67beb5f573ebdeecd99612291610fb2e6efb",
+    "bugs": {
+        "url": "https://github.com/strongloop/loopback-datasource-juggler/issues"
+    },
+    "homepage": "https://github.com/strongloop/loopback-datasource-juggler",
+    "_id": "loopback-datasource-juggler@2.42.0",
+    "_shasum": "66dc99d487ac3da0937c243f45a2d6538ece9ca1",
+    "_from": "loopback-datasource-juggler@2.42.0",
+    "_npmVersion": "1.4.28",
+    "_npmUser": {
+        "name": "rfeng",
+        "email": "enjoyjava@gmail.com"
+    },
+    "maintainers": [
+        {
+            "name": "rfeng",
+            "email": "enjoyjava@gmail.com"
+    },
+        {
+            "name": "ritch",
+            "email": "skawful@gmail.com"
+    },
+        {
+            "name": "schoonology",
+            "email": "michael.r.schoonmaker@gmail.com"
+    },
+        {
+            "name": "strongloop",
+            "email": "callback@strongloop.com"
+    },
+        {
+            "name": "bajtos",
+            "email": "miro.bajtos@gmail.com"
+    }
+  ],
+    "dist": {
+        "shasum": "66dc99d487ac3da0937c243f45a2d6538ece9ca1",
+        "tarball": "http://10.188.25.62:9009/loopback-datasource-juggler/-/loopback-datasource-juggler-2.42.0.tgz"
+    },
+    "directories": {},
+    "_resolved": "http://10.188.25.62:9009/loopback-datasource-juggler/-/loopback-datasource-juggler-2.42.0.tgz"
+}
