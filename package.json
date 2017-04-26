@@ -57,29 +57,7 @@
         "name": "rfeng",
         "email": "enjoyjava@gmail.com"
     },
-    "maintainers": [
-        {
-            "name": "rfeng",
-            "email": "enjoyjava@gmail.com"
-    },
-        {
-            "name": "ritch",
-            "email": "skawful@gmail.com"
-    },
-        {
-            "name": "schoonology",
-            "email": "michael.r.schoonmaker@gmail.com"
-    },
-        {
-            "name": "strongloop",
-            "email": "callback@strongloop.com"
-    },
-        {
-            "name": "bajtos",
-            "email": "miro.bajtos@gmail.com"
-    }
-  ],
-    "dist": {
+   "dist": {
         "shasum": "66dc99d487ac3da0937c243f45a2d6538ece9ca1",
         "tarball": "http://10.188.25.62:9009/loopback-datasource-juggler/-/loopback-datasource-juggler-2.42.0.tgz"
     },
