@@ -31,7 +31,7 @@
         "should": "^5.0.0"
     },
     "dependencies": {
-        "async": "~1.0.0",
+        "async": "2.4.1",
         "async-lock": "^0.3.9",
         "debug": "^2.1.1",
 	"deep-copy": "^1.2.0",
