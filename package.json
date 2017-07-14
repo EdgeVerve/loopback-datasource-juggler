@@ -1,6 +1,6 @@
 {
     "name": "loopback-datasource-juggler",
-    "version": "0.10.1-beta",
+    "version": "0.9.2-rc",
     "description": "LoopBack DataSoure Juggler customized for Open Enterprise(oe.io)",
     "keywords": [
     "StrongLoop",
