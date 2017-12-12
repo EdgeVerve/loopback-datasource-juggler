@@ -1,22 +1,12 @@
-# LoopBack DataSource Juggler
+﻿# LoopBack DataSource Juggler
 
-This is a fixed version of the original [Loopback Datasource Juggler](https://github.com/strongloop/loopback-datasource-juggler) whose Readme follows:
+This project is modification of original [Loopback Datasource Juggler](https://github.com/strongloop/loopback-datasource-juggler).
 
-LoopBack DataSource Juggler is an ORM that provides a common set of interfaces
-for interacting with databases, REST APIs, and other data sources. It was
-initially forked from [JugglingDB](https://github.com/1602/jugglingdb).
+This project is changed from original project for
+* making options as mandatory parameter in dao.js functions (eg. find(), create())
+* adding oe-cloude specific features like idempotent behavior, instance based routing, composite models, caching etc.
+* two phase commit for no-sql database
 
-**For full documentation, see the official StrongLoop documentation**:
- [Connecting models to data sources](http://docs.strongloop.com/display/LB/Connecting+models+to+data+sources)
- 
-For information on creating data sources programmatically, see [Advanced topics: data sources](http://docs.strongloop.com/display/LB/Advanced+topics%3A+data+sources). 
 
-## Installation
+## Please visit [Loopback Datasource Juggler](https://github.com/strongloop/loopback-datasource-juggler) for original documentation.
 
-    npm install loopback-datasource-juggler
-
-Also install the appropriated connector, for example for mongodb:
-
-    npm install loopback-connector-mongodb
-
-See [StrongLoop Documentation](http://docs.strongloop.com/) for more information.

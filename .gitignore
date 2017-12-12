@@ -25,3 +25,8 @@ npm-debug.log
 .nodered/.config.json
 **/.nodered/.config.json
 **/fw-log.log*
+*.njsproj
+*.sln
+/.vs/loopback-datasource-juggler/v15
+/.vs/config/applicationhost.config
+*.suo
