@@ -29,3 +29,4 @@ npm-debug.log
 *.sln
 /.vs/loopback-datasource-juggler/v15
 /.vs/config/applicationhost.config
+*.suo
